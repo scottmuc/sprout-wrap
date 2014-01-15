@@ -5,16 +5,28 @@ recipes:
 - sprout-osx-base::homebrew
 
 # settings
+- sprout-osx-settings::function_keys
 - sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-settings::dock_preferences
+- sprout-osx-settings::finder_display_full_path
+- sprout-osx-settings::remove_garageband
 
 # development (general)
 
 # apps
-- sprout-osx-apps::skype
-- sprout-osx-apps::firefox
-- sprout-osx-apps::dropbox
+- sprout-osx-apps::1password
+- sprout-osx-apps::adium
 - sprout-osx-apps::chrome
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::firefox
+- sprout-osx-apps::flux
+- sprout-osx-apps::selfcontrol
+- sprout-osx-apps::skype
 - sprout-osx-apps::virtualbox
 - sprout-osx-apps::vagrant
+
+- smuc-workstation::ack
+- smuc-workstation::hosts
+- smuc-workstation::font_inconsolata
 
 node_attributes:
