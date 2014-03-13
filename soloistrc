@@ -1,3 +1,7 @@
+cookbook_paths:
+- cookbooks
+- site-cookbooks
+
 recipes:
 
 # base (required by sprout)
@@ -20,7 +24,6 @@ recipes:
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::firefox
 - sprout-osx-apps::flux
-- sprout-osx-apps::selfcontrol
 - sprout-osx-apps::skype
 - sprout-osx-apps::virtualbox
 - sprout-osx-apps::vagrant
@@ -28,5 +31,6 @@ recipes:
 - smuc-workstation::ack
 - smuc-workstation::hosts
 - smuc-workstation::font_inconsolata
+- smuc-workstation::homedir
 
 node_attributes:
