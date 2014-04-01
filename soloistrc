@@ -14,23 +14,29 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::finder_display_full_path
 - sprout-osx-settings::remove_garageband
+- sprout-terminal
 
-# development (general)
-
-# apps
-- sprout-osx-apps::1password
-- sprout-osx-apps::adium
-- sprout-osx-apps::chrome
-- sprout-osx-apps::dropbox
-- sprout-osx-apps::firefox
-- sprout-osx-apps::flux
-- sprout-osx-apps::skype
-- sprout-osx-apps::virtualbox
-- sprout-osx-apps::vagrant
-
-- smuc-workstation::ack
 - smuc-workstation::hosts
 - smuc-workstation::font_inconsolata
 - smuc-workstation::homedir
 
+- sprout-homebrew
+
 node_attributes:
+  sprout:
+    terminal:
+      update_font: true
+      font_src:    http://levien.com/type/myfonts/Inconsolata.otf
+    homebrew:
+      formulae:
+        - ack
+      casks:
+        - adium
+        - chrome
+        - dropbox
+        - firefox
+        - flux
+        - onepassword
+        - skype
+        - vagrant
+        - virtualbox
