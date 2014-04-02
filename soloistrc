@@ -17,7 +17,6 @@ recipes:
 - sprout-terminal
 
 - smuc-workstation::hosts
-- smuc-workstation::font_inconsolata
 - smuc-workstation::homedir
 
 - sprout-homebrew
@@ -30,6 +29,8 @@ node_attributes:
     homebrew:
       formulae:
         - ack
+        - mp3blaster
+        - tree
       casks:
         - adium
         - chrome
@@ -37,6 +38,8 @@ node_attributes:
         - firefox
         - flux
         - onepassword
+        - selfcontrol
         - skype
         - vagrant
         - virtualbox
+        - vlc
