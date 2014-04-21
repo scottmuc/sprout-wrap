@@ -13,7 +13,6 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::finder_display_full_path
-- sprout-osx-settings::remove_garageband
 - sprout-terminal
 
 - smuc-workstation::hosts
