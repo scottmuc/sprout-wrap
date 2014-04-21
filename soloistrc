@@ -28,7 +28,7 @@ node_attributes:
         - tree
       casks:
         - adium
-        - chrome
+        - google-chrome
         - dropbox
         - firefox
         - flux
