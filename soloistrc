@@ -13,7 +13,6 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::finder_display_full_path
-- sprout-terminal
 
 - smuc-workstation::hosts
 - smuc-workstation::homedir
@@ -22,9 +21,6 @@ recipes:
 
 node_attributes:
   sprout:
-    terminal:
-      update_font: true
-      font_src:    http://levien.com/type/myfonts/Inconsolata.otf
     homebrew:
       formulae:
         - ack
