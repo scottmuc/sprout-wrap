@@ -16,6 +16,7 @@ recipes:
 
 - smuc-workstation::hosts
 - smuc-workstation::homedir
+- smuc-workstation::font_inconsolata-g
 
 - sprout-homebrew
 
