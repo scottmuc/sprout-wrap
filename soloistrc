@@ -26,6 +26,7 @@ node_attributes:
       formulae:
         - ack
         - mp3blaster
+        - p7zip
         - tree
       casks:
         - adium
