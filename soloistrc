@@ -37,6 +37,7 @@ node_attributes:
         - onepassword
         - selfcontrol
         - skype
+        - tunnelbear
         - vagrant
         - virtualbox
         - vlc
