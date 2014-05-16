@@ -36,6 +36,7 @@ node_attributes:
         - fitbit-connect
         - firefox
         - flux
+        - kindle
         - onepassword
         - selfcontrol
         - skype
