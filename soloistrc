@@ -37,6 +37,7 @@ node_attributes:
         - firefox
         - flux
         - gog-downloader
+        - heroku-toolbelt
         - kindle
         - onepassword
         - selfcontrol
