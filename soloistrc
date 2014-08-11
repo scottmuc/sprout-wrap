@@ -25,6 +25,7 @@ node_attributes:
     homebrew:
       formulae:
         - ack
+        - graphviz
         - mp3blaster
         - p7zip
         - tree
