@@ -26,6 +26,7 @@ node_attributes:
       formulae:
         - ack
         - graphviz
+        - imagemagick
         - mp3blaster
         - p7zip
         - tree
