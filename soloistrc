@@ -14,7 +14,6 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::finder_display_full_path
 
-- smuc-workstation::hosts
 - smuc-workstation::homedir
 - smuc-workstation::font_inconsolata-g
 - smuc-workstation::remove_bash_it
