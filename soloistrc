@@ -40,6 +40,7 @@ node_attributes:
         - flux
         - gog-downloader
         - heroku-toolbelt
+        - intellij-idea-ce
         - kindle
         - onepassword
         - selfcontrol
