@@ -31,7 +31,6 @@ node_attributes:
         - p7zip
         - tree
       casks:
-        - adium
         - google-chrome
         - dropbox
         - evernote
@@ -42,6 +41,7 @@ node_attributes:
         - heroku-toolbelt
         - intellij-idea-ce
         - kindle
+        - libreoffice
         - onepassword
         - selfcontrol
         - skype
