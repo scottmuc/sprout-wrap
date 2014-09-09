@@ -22,6 +22,10 @@ recipes:
 
 node_attributes:
   sprout:
+    dock_preferences:
+      orientation: left
+      auto_hide:   true
+      clear_apps:  true
     homebrew:
       formulae:
         - ack
