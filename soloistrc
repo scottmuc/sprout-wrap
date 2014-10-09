@@ -30,6 +30,7 @@ node_attributes:
     homebrew:
       formulae:
         - ack
+        - go
         - graphviz
         - imagemagick
         - mp3blaster
@@ -39,7 +40,6 @@ node_attributes:
         - google-chrome
         - dropbox
         - evernote
-        - fitbit-connect
         - firefox
         - flux
         - gog-downloader
