@@ -19,13 +19,13 @@ execute "add homedir repo as a remote" do
   not_if "cd #{home_dir} && git remote | grep origin"
 end
 
-execute "add homedir repo as a remote" do
+execute "fetching remote objects" do
   cwd home_dir
   user current_user
   command 'git fetch origin master'
 end
 
-execute "fetch remote objects" do
+execute "ensure submodules are fetched" do
   cwd home_dir
   user current_user
   command 'git fetch --all'
