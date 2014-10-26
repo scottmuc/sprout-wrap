@@ -48,7 +48,6 @@ node_attributes:
         - heroku-toolbelt
         - hipchat
         - intellij-idea-ce
-        - kindle
         - libreoffice
         - onepassword
         - screenhero
