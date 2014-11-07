@@ -18,6 +18,7 @@ recipes:
 - smuc-workstation::font_inconsolata-g
 - smuc-workstation::remove_bash_it
 - smuc-workstation::desktop
+- smuc-workstation::vimgolf
 
 - sprout-homebrew
 
