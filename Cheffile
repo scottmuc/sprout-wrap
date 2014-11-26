@@ -1,48 +1,42 @@
 #!/usr/bin/env ruby
 
-site 'http://community.opscode.com/api/v1'
+site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'meta',
-  :path => 'site-cookbooks/meta'
+cookbook 'sprout-rbenv',
+  :github => 'pivotal-sprout/sprout-rbenv'
 
-cookbook 'sprout-osx-rbenv',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-rbenv'
+cookbook 'sprout-ruby',
+  :github => 'pivotal-sprout/sprout-ruby'
 
-cookbook 'sprout-osx-git',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-git'
+cookbook 'sprout-mysql',
+  :github => 'pivotal-sprout/sprout-mysql'
 
-cookbook 'sprout-osx-base',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-base'
+cookbook 'sprout-git',
+  :github => 'pivotal-sprout/sprout-git'
 
-cookbook 'pivotal_workstation',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'pivotal_workstation'
+cookbook 'sprout-base',
+  :github => 'pivotal-sprout/sprout-base'
 
 cookbook 'sprout-osx-apps',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-apps'
+  :github => 'pivotal-sprout/sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-settings'
-
-cookbook 'sprout-pivotal',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-pivotal'
+  :github => 'pivotal-sprout/sprout-osx-settings'
 
 cookbook 'osx',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'osx'
+  :github => 'pivotal-sprout/osx'
 
-cookbook 'sprout-osx-rubymine',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-rubymine'
+cookbook 'sprout-rubymine',
+  :github => 'pivotal-sprout/sprout-rubymine'
 
 cookbook 'sprout-homebrew',
   :github => 'pivotal-sprout/sprout-homebrew'
 
 cookbook 'sprout-terminal',
   :github => 'pivotal-sprout/sprout-terminal'
+
+cookbook 'sprout-postgresql',
+  :github => 'pivotal-sprout/sprout-postgresql'
+
+cookbook 'sprout-ssh',
+  :github => 'pivotal-sprout/sprout-ssh'

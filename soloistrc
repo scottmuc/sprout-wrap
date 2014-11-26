@@ -5,10 +5,14 @@ cookbook_paths:
 recipes:
 
 # base (required by sprout)
-- pivotal_workstation::create_var_chef_cache
-- sprout-osx-base::homebrew
+- sprout-base
+- sprout-base::bash_it
+- sprout-base::homebrew
+- sprout-homebrew
 
 # settings
+- sprout-osx-settings
+- sprout-osx-settings::dock_preferences
 - sprout-osx-settings::function_keys
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::dock_preferences
@@ -19,8 +23,6 @@ recipes:
 - smuc-workstation::remove_bash_it
 - smuc-workstation::desktop
 - smuc-workstation::vimgolf
-
-- sprout-homebrew
 
 node_attributes:
   sprout:
@@ -58,3 +60,4 @@ node_attributes:
         - vagrant
         - virtualbox
         - vlc
+
