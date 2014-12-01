@@ -66,6 +66,7 @@ node_attributes:
         - flux
         - gog-downloader
         - heroku-toolbelt
+        - java
         - libreoffice
         - onepassword
         - selfcontrol
