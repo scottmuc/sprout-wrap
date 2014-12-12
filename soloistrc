@@ -57,6 +57,7 @@ node_attributes:
         - p7zip
         - postgresql
         - pstree
+        - python
         - tree
       casks:
         - google-chrome
