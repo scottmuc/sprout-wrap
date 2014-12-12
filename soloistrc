@@ -63,7 +63,6 @@ node_attributes:
         - dropbox
         - evernote
         - firefox
-        - flux
         - gog-downloader
         - heroku-toolbelt
         - java
