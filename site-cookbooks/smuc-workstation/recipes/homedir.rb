@@ -2,7 +2,7 @@
 # automate this with chef, I created a massively over-engineered beast.
 
 home_dir     = node['smuc-workstation'][:home]
-current_user = node['current_user']
+current_user = node['sprout']['user']
 git_dir      = File.join(home_dir, '.git')
 
 execute "initialize git repository" do
