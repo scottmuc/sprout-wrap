@@ -10,6 +10,9 @@ recipes:
 - sprout-base::homebrew
 - sprout-homebrew
 
+- sprout-terminal::close_window_on_exit
+- sprout-terminal
+
 # settings
 # I'm exploding the default.rb so I can cherry pick
 - sprout-osx-settings::defaults_fast_key_repeat_rate
@@ -60,6 +63,7 @@ node_attributes:
         - python
         - tree
       casks:
+        - 1password
         - google-chrome
         - dropbox
         - evernote
@@ -68,7 +72,6 @@ node_attributes:
         - heroku-toolbelt
         - java
         - libreoffice
-        - onepassword
         - selfcontrol
         - skype
         - tunnelbear
