@@ -38,6 +38,7 @@ recipes:
 - sprout-osx-settings::finder_display_full_path
 
 - sprout-chruby
+- sprout-ssh::known_hosts_github
 
 - smuc-workstation::homedir
 - smuc-workstation::font_inconsolata-g
