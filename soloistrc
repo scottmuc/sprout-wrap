@@ -37,6 +37,8 @@ recipes:
 - sprout-osx-settings::dock_preferences
 - sprout-osx-settings::finder_display_full_path
 
+- sprout-chruby
+
 - smuc-workstation::homedir
 - smuc-workstation::font_inconsolata-g
 - smuc-workstation::remove_bash_it
@@ -45,6 +47,11 @@ recipes:
 
 node_attributes:
   sprout:
+    chruby:
+      default_ruby: 2.1.4
+      rubies:
+        ruby:
+          - 2.1.4
     dock_preferences:
       orientation: left
       auto_hide:   true

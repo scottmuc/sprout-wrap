@@ -19,6 +19,15 @@ GIT
     sprout-base (0.1.0)
 
 GIT
+  remote: https://github.com/pivotal-sprout/sprout-chruby
+  ref: master
+  sha: 083c2bd71013ae5b6df762a3ea3443e3a442eae6
+  specs:
+    sprout-chruby (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
   sha: 06d7b052308f9b9b736e99fb444430ea4d9beb66
@@ -34,15 +43,6 @@ GIT
   specs:
     sprout-homebrew (0.1.0)
       homebrew (>= 1.5.4)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-mysql
-  ref: master
-  sha: 7501fffff8a5c6e9237b295ab586595eeb2bb06e
-  specs:
-    sprout-mysql (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
@@ -72,15 +72,6 @@ GIT
   specs:
     sprout-postgresql (0.1.0)
       homebrew (>= 1.5.4)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-rbenv
-  ref: master
-  sha: 7436b84ac159c026961c66b7f96387755f554617
-  specs:
-    sprout-rbenv (0.1.0)
-      homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
 GIT
@@ -121,13 +112,12 @@ GIT
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
+  sprout-chruby (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
-  sprout-mysql (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
   sprout-postgresql (>= 0)
-  sprout-rbenv (>= 0)
   sprout-ruby (>= 0)
   sprout-rubymine (>= 0)
   sprout-ssh (>= 0)
