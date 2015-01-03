@@ -7,11 +7,16 @@ gem_package "vimgolf" do
   version "0.4.6"
 end
 
+directory File.join(home_dir, ".vimgolf") do
+  owner current_user
+  group "staff"
+  mode  "0755"
+end
+
 directory File.join(home_dir, ".vimgolf/put") do
   owner current_user
   group "staff"
   mode  "0755"
-  recursive true
 end
 
 # not too concerned about my key being here, don't really
