@@ -1,8 +1,8 @@
 # I am storing all my homedir in a git repository because when I attempted to
 # automate this with chef, I created a massively over-engineered beast.
 
-home_dir     = node['smuc-workstation'][:home]
-current_user = node['sprout']['user']
+home_dir     = node[:workstation][:home]
+current_user = node[:sprout][:user]
 git_dir      = File.join(home_dir, '.git')
 
 execute "initialize git repository" do

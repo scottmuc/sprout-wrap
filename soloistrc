@@ -40,11 +40,11 @@ recipes:
 - sprout-chruby
 - sprout-ssh::known_hosts_github
 
-- smuc-workstation::homedir
-- smuc-workstation::font_inconsolata-g
-- smuc-workstation::remove_bash_it
-- smuc-workstation::desktop
-- smuc-workstation::vimgolf
+- workstation::homedir
+- workstation::font_inconsolata-g
+- workstation::remove_bash_it
+- workstation::desktop
+- workstation::vimgolf
 
 node_attributes:
   sprout:
@@ -59,16 +59,8 @@ node_attributes:
       clear_apps:  true
     homebrew:
       formulae:
-        - ack
-        - awscli
-        - go
-        - graphviz
-        - imagemagick
         - mp3blaster
-        - p7zip
-        - postgresql
         - pstree
-        - python
         - tree
       casks:
         - 1password
@@ -79,7 +71,7 @@ node_attributes:
         - gog-downloader
         - heroku-toolbelt
         - java
-        - libreoffice
+  #      - libreoffice
         - selfcontrol
         - skype
         - tunnelbear

@@ -1,7 +1,7 @@
 # sets up my vimgolf profile
 
-home_dir     = node['smuc-workstation'][:home]
-current_user = node['sprout']['user']
+home_dir     = node[:workstation][:home]
+current_user = node[:sprout][:user]
 
 gem_package "vimgolf" do
   version "0.4.6"
