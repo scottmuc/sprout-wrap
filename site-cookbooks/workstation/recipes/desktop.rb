@@ -1,6 +1,6 @@
 # Installs the desktop ruby gem and sets it
 desktop_binary = "/usr/bin/desktop"
-desktop_url    = "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
+desktop_url    = node[:workstation][:desktop][:url]
 
 gem_package "desktop" do
   version "1.1.2"

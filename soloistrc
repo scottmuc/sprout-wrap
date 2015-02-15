@@ -68,6 +68,7 @@ node_attributes:
         - dropbox
         - evernote
         - firefox
+        - gnucash
         - gog-downloader
         - heroku-toolbelt
         - java
@@ -79,4 +80,7 @@ node_attributes:
         - vagrant
         - virtualbox
         - vlc
+  workstation:
+    desktop:
+      url: "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
 
