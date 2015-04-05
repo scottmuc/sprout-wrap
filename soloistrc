@@ -40,7 +40,7 @@ recipes:
 - sprout-chruby
 - sprout-ssh::known_hosts_github
 
-- workstation::homedir
+- workstation::git_homedir
 - workstation::font_inconsolata-g
 - workstation::remove_bash_it
 - workstation::desktop
@@ -83,4 +83,6 @@ node_attributes:
   workstation:
     desktop:
       url: "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
+    git_homedir:
+      repo: "git@github.com:scottmuc/homedir.git"
 
