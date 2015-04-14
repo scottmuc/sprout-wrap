@@ -72,7 +72,7 @@ node_attributes:
         - gog-downloader
         - heroku-toolbelt
         - java
-  #      - libreoffice
+        - libreoffice
         - selfcontrol
         - skype
         - tunnelbear
