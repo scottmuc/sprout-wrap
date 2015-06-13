@@ -12,6 +12,7 @@ recipes:
 
 - sprout-terminal::close_window_on_exit
 - sprout-terminal
+- sprout-ssh::known_hosts_github
 
 # settings
 # I'm exploding the default.rb so I can cherry pick
@@ -38,7 +39,6 @@ recipes:
 - sprout-osx-settings::finder_display_full_path
 
 - sprout-chruby
-- sprout-ssh::known_hosts_github
 
 - workstation::git_homedir
 - workstation::font_inconsolata-g
