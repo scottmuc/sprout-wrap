@@ -76,7 +76,6 @@ node_attributes:
         - selfcontrol
         - skype
         - tunnelbear
-        - utorrent
         - vagrant
         - virtualbox
         - vlc
