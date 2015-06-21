@@ -10,33 +10,14 @@ recipes:
 - sprout-base::homebrew
 - sprout-homebrew
 
-- sprout-terminal::close_window_on_exit
+# settings
+# replacing sprout-osx-settings::default with my own
+- workstation::sprout-osx-settings-default-override
+- sprout-osx-settings::dock_preferences
 - sprout-terminal
 - sprout-ssh::known_hosts_github
 
-# settings
-# I'm exploding the default.rb so I can cherry pick
-- sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-settings::function_keys
-- sprout-osx-settings::global_environment_variables
-- sprout-osx-settings::input_on_login
-- sprout-osx-settings::inputrc
-- sprout-osx-settings::keyboard
-- sprout-osx-settings::locate
-- sprout-osx-settings::machine_name
-- sprout-osx-settings::menubar
-- sprout-osx-settings::screensaver
-#- sprout-osx-settings::screen_sharing
-- sprout-osx-settings::set_menubar_clock_format
-#- sprout-osx-settings::shared_memory
-#- sprout-osx-settings::snmpd
-#- sprout-osx-settings::sshd_on
-#- sprout-osx-settings::tcp_keepalive
-#- sprout-osx-settings::timemachine
-#- sprout-osx-settings::updates
-
-- sprout-osx-settings::dock_preferences
-- sprout-osx-settings::finder_display_full_path
+- sprout-terminal::close_window_on_exit
 
 - sprout-chruby
 
@@ -79,6 +60,11 @@ node_attributes:
         - vagrant
         - virtualbox
         - vlc
+  settings:
+    # to figure out what to set this to run
+    #   `defaults read com.apple.menuextra.clock`
+    # after you've set the clock to the format you desire manually
+    clock_format: MMM d  HH:mm:ss
   workstation:
     desktop:
       url: "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
