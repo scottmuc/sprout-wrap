@@ -70,4 +70,5 @@ node_attributes:
       url: "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
     git_homedir:
       repo: "git@github.com:scottmuc/homedir.git"
+      branch: "master"
 

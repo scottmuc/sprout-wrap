@@ -3,8 +3,10 @@
 
 home_dir      = node[:workstation][:home]
 home_dir_repo = node[:workstation][:git_homedir][:repo]
+git_branch    = node[:workstation][:git_homedir][:branch]
 current_user  = node[:workstation][:user]
 git_dir       = File.join(home_dir, '.git')
+
 
 execute "initialize git repository" do
   cwd home_dir
@@ -23,7 +25,7 @@ end
 execute "fetching remote objects" do
   cwd home_dir
   user current_user
-  command 'git fetch origin master'
+  command "git fetch origin #{git_branch}"
 end
 
 execute "ensure submodules are fetched" do
@@ -32,10 +34,10 @@ execute "ensure submodules are fetched" do
   command 'git fetch --all'
 end
 
-execute "ensure master is at tip" do
+execute "ensure #{git_branch} is at tip" do
   cwd home_dir
   user current_user
-  command 'git reset --hard origin/master'
+  command "git reset --hard origin/#{git_branch}"
 end
 
 execute "fetch our submodules" do
