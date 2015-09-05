@@ -45,16 +45,19 @@ node_attributes:
         - tree
       casks:
         - 1password
-        - google-chrome
+        - atom
+        - clipmenu
         - dropbox
         - evernote
         - firefox
+        - google-chrome
         - gnucash
         - heroku-toolbelt
         - java
         - libreoffice
         - selfcontrol
         - skype
+        - spectacle
         - tunnelbear
         - vagrant
         - vlc
