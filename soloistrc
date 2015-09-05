@@ -50,7 +50,6 @@ node_attributes:
         - evernote
         - firefox
         - gnucash
-        - gog-downloader
         - heroku-toolbelt
         - java
         - libreoffice
@@ -58,8 +57,9 @@ node_attributes:
         - skype
         - tunnelbear
         - vagrant
-        - virtualbox
         - vlc
+        # installing virtualbox by hand now since I cannot use version 5.0
+        #- virtualbox
   settings:
     # to figure out what to set this to run
     #   `defaults read com.apple.menuextra.clock`
