@@ -8,7 +8,8 @@ recipes:
 - sprout-base
 - sprout-base::bash_it
 - sprout-base::homebrew
-- sprout-homebrew
+# Disabling this because it's not working on El Capitan
+#- sprout-homebrew
 
 # settings
 # replacing sprout-osx-settings::default with my own
@@ -22,7 +23,8 @@ recipes:
 - workstation::git_homedir
 - workstation::font_inconsolata-g
 - workstation::remove_bash_it
-- workstation::desktop
+# This also doesn't work on El Capitan
+#- workstation::desktop
 - workstation::vimgolf
 
 node_attributes:
