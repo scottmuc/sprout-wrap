@@ -19,8 +19,6 @@ recipes:
 
 - sprout-terminal::close_window_on_exit
 
-- sprout-chruby
-
 - workstation::git_homedir
 - workstation::font_inconsolata-g
 - workstation::remove_bash_it
@@ -29,11 +27,6 @@ recipes:
 
 node_attributes:
   sprout:
-    chruby:
-      default_ruby: 2.1.4
-      rubies:
-        ruby:
-          - 2.1.4
     dock_preferences:
       orientation: left
       auto_hide:   true
@@ -45,15 +38,13 @@ node_attributes:
         - tree
       casks:
         - 1password
-        - atom
+        - android-file-transfer
         - clipmenu
         - dropbox
         - evernote
         - firefox
         - google-chrome
         - gnucash
-        - heroku-toolbelt
-        - java
         - libreoffice
         - selfcontrol
         - skype
@@ -61,8 +52,7 @@ node_attributes:
         - tunnelbear
         - vagrant
         - vlc
-        # installing virtualbox by hand now since I cannot use version 5.0
-        #- virtualbox
+        - virtualbox
   settings:
     # to figure out what to set this to run
     #   `defaults read com.apple.menuextra.clock`
