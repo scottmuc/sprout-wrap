@@ -40,6 +40,12 @@ execute "ensure #{git_branch} is at tip" do
   command "git reset --hard origin/#{git_branch}"
 end
 
+execute "checkout branch #{git_branch}" do
+  cwd home_dir
+  user current_user
+  command "git checkout #{git_branch}"
+end
+
 execute "fetch our submodules" do
   cwd home_dir
   user current_user
