@@ -1,5 +1,4 @@
 # Installs the desktop ruby gem and sets it
-desktop_binary = "/usr/local/bin/desktop"
 desktop_url    = node[:workstation][:desktop][:url]
 
 gem_package "desktop" do
@@ -13,6 +12,7 @@ file "/System/Library/CoreServices/DefaultDesktop.jpg" do
 end
 
 execute "Set desktop image to something awesome" do
-  command "#{desktop_binary} #{desktop_url}"
+  command "desktop #{desktop_url}"
+  environment 'PATH' =>  '/usr/local/bin:/usr/bin'
 end
 
