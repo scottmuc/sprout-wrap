@@ -31,3 +31,6 @@ cookbook 'sprout-terminal',
 
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
+
+cookbook 'sprout-jetbrains-editors',
+  :github => 'pivotal-sprout/sprout-jetbrains-editors'

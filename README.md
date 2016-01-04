@@ -6,9 +6,9 @@ This project uses [soloist](https://github.com/mkocher/soloist) and [librarian-c
 to run a subset of the recipes in sprout's cookbooks.
 
 [Fork it](https://github.com/pivotal-sprout/sprout-wrap/fork) to 
-customize its [attributes](http://docs.opscode.com/chef_overview_attributes.html) in [soloistrc](/soloistrc) and the list of recipes 
+customize its [attributes](http://docs.chef.io/attributes.html) in [soloistrc](/soloistrc) and the list of recipes 
 you'd like to use for your team. You may also want to add other cookbooks to its [Cheffile](/Cheffile), perhaps one 
-of the many [community cookbooks](http://community.opscode.com/cookbooks). By default it configures an OS X 
+of the many [community cookbooks](https://supermarket.chef.io/cookbooks). By default it configures an OS X 
 Mavericks workstation for Ruby development.
 
 Finally, if you've never used Chef before - we highly recommend you buy &amp; watch [this excellent 17 minute screencast](http://railscasts.com/episodes/339-chef-solo-basics) by Ryan Bates. 
@@ -43,9 +43,9 @@ then try downgrading those errors like this:
 
 ### 4. Run soloist
 
-[You may want to modify your Energy Saver preferences (**System Preferences &rarr; Energy Saver &rarr; Computer Sleep &rarr; 3hrs**); depending on your network connection, soloist can take from 10 minutes to 2 hours to complete.]
+[The `caffeinate` command will keep your computer awake while installing; depending on your network connection, soloist can take from 10 minutes to 2 hours to complete.]
 
-    bundle exec soloist
+    caffeinate bundle exec soloist
 
 ## Roadmap
 
