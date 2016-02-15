@@ -26,7 +26,7 @@ include_recipe "sprout-osx-settings::locate"
 
 # I really disklike transparency so definitely want to include this
 # to ensure an opaque menu bar
-include_recipe "sprout-osx-settings::menubar"
+#include_recipe "sprout-osx-settings::menubar"
 
 # the screensaver settings seem appropriate for my usage scenarios
 include_recipe "sprout-osx-settings::screensaver"

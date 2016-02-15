@@ -32,28 +32,6 @@ node_attributes:
       orientation: left
       auto_hide:   true
       clear_apps:  true
-    homebrew:
-      formulae:
-        - mp3blaster
-        - pstree
-        - tree
-      casks:
-        - 1password
-        - android-file-transfer
-        - clipmenu
-        - dropbox
-        - evernote
-        - firefox
-        - google-chrome
-        - gnucash
-        - libreoffice
-        - selfcontrol
-        - skype
-        - spectacle
-        - tunnelbear
-        - vagrant
-        - vlc
-        - virtualbox
   settings:
     # to figure out what to set this to run
     #   `defaults read com.apple.menuextra.clock`
@@ -65,4 +43,26 @@ node_attributes:
     git_homedir:
       repo: "git@github.com:scottmuc/homedir.git"
       branch: "master"
-
+  homebrew:
+    formulas:
+      - jq
+      - mp3blaster
+      - pstree
+      - tree
+    casks:
+      - 1password
+      - android-file-transfer
+      - clipmenu
+      - dropbox
+      - evernote
+      - firefox
+      - google-chrome
+      - gnucash
+      - libreoffice
+      - selfcontrol
+      - skype
+      - spectacle
+      - tunnelbear
+      - vagrant
+      - vlc
+      - virtualbox
