@@ -7,8 +7,9 @@ recipes:
 # base (required by sprout)
 - sprout-base
 - sprout-base::bash_it
-- sprout-base::homebrew
-- sprout-homebrew
+- homebrew
+- homebrew::install_formulas
+- homebrew::install_casks
 
 # settings
 # replacing sprout-osx-settings::default with my own
