@@ -57,6 +57,7 @@ node_attributes:
       - evernote
       - firefox
       - gog-galaxy
+      - go
       - google-chrome
       - gnucash
       - libreoffice
