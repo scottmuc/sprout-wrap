@@ -8,6 +8,7 @@ recipes:
 - sprout-base
 - sprout-base::bash_it
 - homebrew
+- homebrew::install_taps
 - homebrew::install_formulas
 - homebrew::install_casks
 
