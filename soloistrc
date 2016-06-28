@@ -56,7 +56,8 @@ node_attributes:
       - dropbox
       - evernote
       - firefox
-      - gog-galaxy
+      # removing because autoupdater doesn't work with this cask
+      # - gog-galaxy
       - go
       - google-chrome
       - gnucash
