@@ -14,6 +14,7 @@ recipes:
 
 # apps
 - sprout-osx-apps::iterm2
+- sprout-osx-apps::shiftit
 
 # settings
 # replacing sprout-osx-settings::default with my own
@@ -68,7 +69,6 @@ node_attributes:
       - libreoffice
       - selfcontrol
       - skype
-      - spectacle
       - tunnelbear
       - vagrant
       - vlc
