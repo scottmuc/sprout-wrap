@@ -28,7 +28,7 @@ recipes:
 - workstation::git_homedir
 - workstation::font_inconsolata-g
 - workstation::remove_bash_it
-- workstation::desktop
+#- workstation::desktop
 - workstation::vimgolf
 
 node_attributes:
