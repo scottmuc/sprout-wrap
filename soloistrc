@@ -12,6 +12,9 @@ recipes:
 - homebrew::install_formulas
 - homebrew::install_casks
 
+# apps
+- sprout-osx-apps::iterm2
+
 # settings
 # replacing sprout-osx-settings::default with my own
 - workstation::sprout-osx-settings-default-override
