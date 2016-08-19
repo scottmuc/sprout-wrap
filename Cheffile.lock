@@ -22,51 +22,6 @@ GIT
       homebrew (>= 0.0.0)
 
 GIT
-  remote: https://github.com/pivotal-sprout/sprout-chruby
-  ref: master
-  sha: d6065dea3e4baaf7f133b9839b5c2043d1cb4191
-  specs:
-    sprout-chruby (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-git
-  ref: master
-  sha: 797e6a8a4ceb7cad3775c8fbfa4553aa06b39f47
-  specs:
-    sprout-git (0.2.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-homebrew
-  ref: master
-  sha: 68274f5f450a1cf1b0ae6748e4c4606d1ce47e87
-  specs:
-    sprout-homebrew (0.2.0)
-      homebrew (>= 1.5.4)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-jetbrains-editors
-  ref: master
-  sha: 7811eb38c3327f1e2d80335f724536ce5ebb54e4
-  specs:
-    sprout-jetbrains-editors (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-mysql
-  ref: master
-  sha: 12a264fe5418ae9fc6f5300fe56abec058f4a743
-  specs:
-    sprout-mysql (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
   remote: https://github.com/pivotal-sprout/sprout-osx-apps
   ref: master
   sha: c86e31c859db6101a6e9e8af46041203b8db14f0
@@ -87,60 +42,9 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-postgresql
-  ref: master
-  sha: c4a18831e938272db29137bbbc7b4a5f9a8efca1
-  specs:
-    sprout-postgresql (0.1.0)
-      homebrew (>= 1.5.4)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-rbenv
-  ref: master
-  sha: fdb0c510219b551c38e4aacd530252ada9728e72
-  specs:
-    sprout-rbenv (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-ruby
-  ref: master
-  sha: e10f1a26dbee55cd6349bab638afe74b5a05e3a1
-  specs:
-    sprout-ruby (0.1.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-ssh
-  ref: master
-  sha: b3ac3a04d9b9494b32514e69b33720fd51f46224
-  specs:
-    sprout-ssh (0.1.0)
-      sprout-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-terminal
-  ref: master
-  sha: 6d9be928aa0041f455d3721b14c89c5e068f5e04
-  specs:
-    sprout-terminal (0.1.0)
-      osx (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
-  sprout-chruby (>= 0)
-  sprout-git (>= 0)
-  sprout-homebrew (>= 0)
-  sprout-jetbrains-editors (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
-  sprout-ruby (>= 0)
-  sprout-ssh (>= 0)
-  sprout-terminal (>= 0)
 

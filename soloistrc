@@ -6,13 +6,11 @@ recipes:
 
 # base (required by sprout)
 - sprout-base
-- homebrew
 
 # settings
 # replacing sprout-osx-settings::default with my own
 - workstation::sprout-osx-settings-default-override
 - sprout-osx-settings::dock_preferences
-- sprout-terminal
 
 node_attributes:
   sprout:

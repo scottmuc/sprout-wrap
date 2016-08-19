@@ -2,15 +2,6 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'sprout-chruby',
-  :github => 'pivotal-sprout/sprout-chruby'
-
-cookbook 'sprout-ruby',
-  :github => 'pivotal-sprout/sprout-ruby'
-
-cookbook 'sprout-git',
-  :github => 'pivotal-sprout/sprout-git'
-
 cookbook 'sprout-base',
   :github => 'pivotal-sprout/sprout-base'
 
@@ -22,15 +13,3 @@ cookbook 'sprout-osx-settings',
 
 cookbook 'osx',
   :github => 'pivotal-sprout/osx'
-
-cookbook 'sprout-homebrew',
-  :github => 'pivotal-sprout/sprout-homebrew'
-
-cookbook 'sprout-terminal',
-  :github => 'pivotal-sprout/sprout-terminal'
-
-cookbook 'sprout-ssh',
-  :github => 'pivotal-sprout/sprout-ssh'
-
-cookbook 'sprout-jetbrains-editors',
-  :github => 'pivotal-sprout/sprout-jetbrains-editors'
