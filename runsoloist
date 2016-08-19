@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e
+
+workstation_repo_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ ! -x /usr/local/bin/bundle ]
+then
+  sudo gem install bundler --no-ri --no-rdoc
+fi
+
+pushd "${workstation_repo_dir}"
+  bundle install --binstubs
+  bin/soloist
+popd
+
