@@ -6,30 +6,13 @@ recipes:
 
 # base (required by sprout)
 - sprout-base
-- sprout-base::bash_it
 - homebrew
-- homebrew::install_taps
-- homebrew::install_formulas
-- homebrew::install_casks
-
-# apps
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::shiftit
 
 # settings
 # replacing sprout-osx-settings::default with my own
 - workstation::sprout-osx-settings-default-override
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
-- sprout-ssh::known_hosts_github
-
-- sprout-terminal::close_window_on_exit
-
-- workstation::git_homedir
-- workstation::font_inconsolata-g
-- workstation::remove_bash_it
-#- workstation::desktop
-- workstation::vimgolf
 
 node_attributes:
   sprout:
@@ -37,39 +20,9 @@ node_attributes:
       orientation: left
       auto_hide:   true
       clear_apps:  true
-  settings:
-    # to figure out what to set this to run
-    #   `defaults read com.apple.menuextra.clock`
-    # after you've set the clock to the format you desire manually
-    clock_format: MMM d  HH:mm:ss
-  workstation:
-    desktop:
-      url: "http://static.simpledesktops.com/uploads/desktops/2013/02/20/OldFashioned.png"
-    git_homedir:
-      repo: "git@github.com:scottmuc/homedir.git"
-      branch: "master"
-  homebrew:
-    formulas:
-      - jq
-      - mp3blaster
-      - pstree
-      - tree
-    casks:
-      - 1password
-      - android-file-transfer
-      - clipmenu
-      - dropbox
-      - evernote
-      - firefox
-      # removing because autoupdater doesn't work with this cask
-      # - gog-galaxy
-      - go
-      - google-chrome
-      - gnucash
-      - libreoffice
-      - selfcontrol
-      - skype
-      - tunnelbear
-      - vagrant
-      - vlc
-      - virtualbox
+    settings:
+      # to figure out what to set this to run
+      #   `defaults read com.apple.menuextra.clock`
+      # after you've set the clock to the format you desire manually
+      clock_format: MMM d  HH:mm:ss
+
