@@ -2,7 +2,6 @@ recipes:
 - sprout-base
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-settings::function_keys
-- sprout-osx-settings::menubar
 - sprout-osx-settings::screensaver
 - sprout-osx-settings::set_menubar_clock_format
 - sprout-osx-settings::dock_preferences
