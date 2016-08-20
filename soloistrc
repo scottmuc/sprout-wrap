@@ -1,15 +1,10 @@
-cookbook_paths:
-- cookbooks
-- site-cookbooks
-
 recipes:
-
-# base (required by sprout)
 - sprout-base
-
-# settings
-# replacing sprout-osx-settings::default with my own
-- workstation::sprout-osx-settings-default-override
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-settings::function_keys
+- sprout-osx-settings::menubar
+- sprout-osx-settings::screensaver
+- sprout-osx-settings::set_menubar_clock_format
 - sprout-osx-settings::dock_preferences
 
 node_attributes:
@@ -23,4 +18,3 @@ node_attributes:
       #   `defaults read com.apple.menuextra.clock`
       # after you've set the clock to the format you desire manually
       clock_format: MMM d  HH:mm:ss
-
