@@ -1,8 +1,15 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
+    build-essential (3.2.0)
+      seven_zip (>= 0.0.0)
     dmg (4.1.1)
-    homebrew (5.0.4)
+    homebrew (5.0.8)
+    mingw (0.1.1)
+      seven_zip (>= 0.0.0)
+    seven_zip (3.1.0)
+      windows (>= 0.0.0)
+    windows (5.2.2)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -40,9 +47,21 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/pivotal-sprout/sprout-terminal
+  ref: master
+  sha: 6d9be928aa0041f455d3721b14c89c5e068f5e04
+  specs:
+    sprout-terminal (0.1.0)
+      osx (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
 DEPENDENCIES
+  build-essential (= 3.2.0)
+  mingw (= 0.1.1)
   osx (>= 0)
   sprout-base (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
+  sprout-terminal (>= 0)
 

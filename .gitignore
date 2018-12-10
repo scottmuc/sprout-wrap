@@ -2,4 +2,4 @@ tmp/
 cookbooks/
 .bundle/
 bin/
-vendor/
+vendor/bundle

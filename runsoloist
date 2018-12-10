@@ -10,7 +10,7 @@ then
 fi
 
 pushd "${workstation_repo_dir}"
-  bundle install --binstubs --path vendor/bundle
+  bundle install --binstubs --path vendor/bundle --without development
   bin/soloist
 popd
 
