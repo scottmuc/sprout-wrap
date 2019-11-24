@@ -6,7 +6,7 @@ workstation_repo_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ ! -x /usr/local/bin/bundle ]
 then
-  sudo gem install bundler -v '< 2' --no-ri --no-rdoc
+  sudo gem install bundler -v '< 2'
 fi
 
 pushd "${workstation_repo_dir}"
