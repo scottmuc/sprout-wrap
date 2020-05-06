@@ -1,9 +1,15 @@
 recipes:
+# included just for the chef cache
 - sprout-base
+# can probably do without this (in favour of better KB bav)
 - sprout-osx-settings::defaults_fast_key_repeat_rate
+# function keys don't often impact me that much
 - sprout-osx-settings::function_keys
+# not as relevant since I'm working from home
 - sprout-osx-settings::screensaver
+# definitely want to pull this one out
 - sprout-osx-settings::set_menubar_clock_format
+# definitely want this one too
 - sprout-osx-settings::dock_preferences
 
 node_attributes:
