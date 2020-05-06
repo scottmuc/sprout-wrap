@@ -7,12 +7,6 @@ recipes:
 - sprout-osx-settings::function_keys
 # not as relevant since I'm working from home
 - sprout-osx-settings::screensaver
-# definitely want this one too
-- sprout-osx-settings::dock_preferences
 
 node_attributes:
   sprout:
-    dock_preferences:
-      orientation: left
-      auto_hide:   true
-      clear_apps:  true
