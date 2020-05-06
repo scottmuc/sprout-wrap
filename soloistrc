@@ -7,8 +7,6 @@ recipes:
 - sprout-osx-settings::function_keys
 # not as relevant since I'm working from home
 - sprout-osx-settings::screensaver
-# definitely want to pull this one out
-- sprout-osx-settings::set_menubar_clock_format
 # definitely want this one too
 - sprout-osx-settings::dock_preferences
 
@@ -18,8 +16,3 @@ node_attributes:
       orientation: left
       auto_hide:   true
       clear_apps:  true
-    settings:
-      # to figure out what to set this to run
-      #   `defaults read com.apple.menuextra.clock`
-      # after you've set the clock to the format you desire manually
-      clock_format: MMM d  HH:mm:ss
