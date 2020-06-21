@@ -1,6 +1,8 @@
 # sprout-wrap
 
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
+```diff
+- this repository is no longer used. it's here for archive purposes only.
+```
 
 ## Prerequisites
 
